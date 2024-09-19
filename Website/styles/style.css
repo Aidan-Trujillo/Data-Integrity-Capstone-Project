@@ -7,6 +7,10 @@ body{
     margin: 0px;
 }
 
+body{
+    background: #F0EAD6;
+}
+
 .navigationbar {
     display: flex;
     justify-content: space-around;
