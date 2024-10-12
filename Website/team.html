@@ -10,22 +10,21 @@
     <link rel="stylesheet" href="./styles/style.css"> <!-- Link to your CSS file -->
 
     <link rel="icon" href="./assets/logo.png" type="image/x-icon"></head>
+
+    <!--Scripts-->
+    <script src="scripts/navbar.js"></script>
+    
 <head>
 <title>Data Integrity</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body onload="loadNavBar()">
+  
   <header>
     <!--Navigation bar on the top of the website-->
-    <nav class="navigationbar">
-      <!--Links for each section-->
-      <div class="links"><img src="./assets/logo.png" height="100px" width="auto"></div>
-      <div class="links"><a href="index.html">Home</a></div>
-      <div class="links"><a href="team.html">Team</a></div>
-      <div class="links"><a href="about.html">About</a></div>
-      <div class="links"><a href="#">Documentation</a></div>
-    </nav>
+    <div id="navigationbar"></div>
   </header>
+
   <main>
     
     <h1 class="page-title">Meet the Team</h1>
@@ -56,14 +55,9 @@
     <div class="member-bio">
         <img src="./assets/portrait-photos/KyleProfile.jpg" >
         <div class="member-info">
-<<<<<<< HEAD
-            <h1>Kyle Bambling</h1>
-            <p style="font-size: 20px;">My name is Kyle Bambling and I am a software engineer senior. I have experience 
-=======
             <h1>Kyle Bambling</h1>  
             <p style="font-size: 20px;">
               My name is Kyle Bambling and I am a software engineer senior. I have experience 
->>>>>>> e7c044df36be99567f2a967cbaec816b290f52e8
               with a few different languages from working on various projects. I am currently a tutor for STA 270
               but I have worked in IT and a software engineering intern over the summer. I really believe in the 
               goal of this project and I am looking forward to helping conservation efforts.
