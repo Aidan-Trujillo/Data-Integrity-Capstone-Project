@@ -10,6 +10,6 @@ function loadNavBar() {
                 <div class="links"><a href="index.html">Home</a></div>
                 <div class="links"><a href="project.html">Project</a></div>
                 <div class="links"><a href="team.html">Team</a></div>
-                <div class="links"><a href="#">Documentation</a></div>
+                <div class="links"><a href="client.html">Clients</a></div>
             </nav>`;
 }

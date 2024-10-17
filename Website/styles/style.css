@@ -36,6 +36,9 @@ body{
     background-color: #191024;
 }
 
+.whitespace{
+    margin: 100px;
+}
 
 /*Generic styling for classes*/
 .page-title{
@@ -69,7 +72,10 @@ body{
     display: flex; 
     flex-direction: column;
 
-    margin-right: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+
+    text-align: center;
 }
 
 .member-thumbnail img{
